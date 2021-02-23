@@ -63,6 +63,15 @@ h4:before {
     top: 9px;
 }
 
+h9 {
+    font-family: 'Lato', sans-serif;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    position: relative;
+    color: white;
+    margin-left: 40px;
+    font-weight: 1500;
+}
 
 /* General
 ==================================================*/
@@ -282,7 +291,7 @@ a.active {
 ==================================================*/
 
 #home {
-    background: url(../static/pic_3.jpg);
+    background: url(../static/back.jpg);
     background-size: cover;
     height: 100vh;
 }
@@ -501,7 +510,7 @@ a.active {
     left: 0px;
     height: 100%;
     width: 100%;
-    background-color: #425BB5;
+    background-color: white;
     -webkit-transform: translateY(100%);
     transform: translateY(100%);
     opacity: 0;
@@ -536,9 +545,9 @@ a.active {
 .portfolio_item .portfolio_item_hover .item_info em {
     font-style: normal;
     display: inline-block;
-    background-color: #425BB5;
+    background-color: #191919;
     padding: 5px 20px;
-    color: #fff;
+    color: #ffffff;
     margin-top: 10px;
     -webkit-transform: translateY(100px);
     transform: translateY(100px);
